@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Nitchii.InputManager</Title>
+    <Version>1.0.5</Version>
+    <Authors>Vasile Stadnitchii</Authors>
+    <Company>Nitchii, LLC</Company>
+    <Description>A small library for simulating and reacting to keyboard and mouse input. Only supports windows via user32.dll</Description>
+  </PropertyGroup>
+
+</Project>
