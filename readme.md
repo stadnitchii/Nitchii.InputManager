@@ -4,7 +4,7 @@ It only supports windows using user32.dll
 
 
 ### KeyboardInput
-```dotnet
+```cs
 // Simple key presss
 KeyboardInput.KeyDown(Keys.G);
 await Task.Delay(50);
@@ -18,7 +18,7 @@ await KeyboardInput.KeyPress(Keys.G, 500);
 ```
 
 ### MouseInput
-```dotnet
+```cs
 // Simple key presss
 MouseInput.ButtonDown(MouseButtons.Left);
 await Task.Delay(50);
